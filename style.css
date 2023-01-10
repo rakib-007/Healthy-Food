@@ -1,9 +1,84 @@
 body{
     font-family: 'Poppins', sans-serif;
+    margin: 0;
 }
 h1{
-    font-size: 50px;
+    font-size: 40px;
+    color: gray;
 }
 .orange-color{
     color: orange;
+}
+.flexible-containor{
+    display: flex;
+    
+}
+.diet-area{
+    padding-top: 15%;
+    padding-left: 7%;
+
+}
+.half-width{
+    width: 50%;
+}
+.half-width-img{
+    height: 900px;
+    width: 800px;
+}
+.link-button{
+    text-decoration: none;
+    background-color: tomato;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 100px;
+}
+.half-width-img-2{
+    height:600px;
+    width: 400px;
+    padding-left: 200px;
+}
+.about-me-section{
+    margin-top: 100px;
+    background-image: url(./images/shapes/7.png);
+    background-repeat: no-repeat;
+}
+.about{
+    padding-right: 3%;
+    padding-left: 100px;
+    width: 50%;
+}
+.middle-area{
+    text-align: center;
+}
+.flexible-containor-3{
+    display: flex;
+    padding: 5%;
+}
+.recipie-1{
+    border-radius: 10px;
+    box-shadow: 10px 10px 40px gray;
+    width: 50%;
+    margin: 20px;
+    padding: 20px;
+}
+.recipie-1 img{
+   
+    width: 100%;
+
+}
+.info{
+    
+    box-shadow: 5px 5px 50px gray;
+    border-radius: 10px;
+    margin: 5%;
+   
+}
+.info-div{
+    padding: 10px 100px;
+}
+.foot-area{
+    text-align: center;
+    background-color: rgb(55, 49, 49);
+   color: aliceblue;
+   padding: 30px;
 }
